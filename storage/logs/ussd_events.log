@@ -1,0 +1,306 @@
+{
+    "time": "2026-04-26 09:56:47",
+    "method": "GET",
+    "post": [],
+    "get": [],
+    "raw": ""
+}
+--------------------------------------------------------------------------------
+{
+    "time": "2026-04-26 10:48:01",
+    "method": "POST",
+    "post": {
+        "durationInMillis": "3723",
+        "phoneNumber": "+258865010200",
+        "errorMessage": "",
+        "serviceCode": "*384*82981#",
+        "lastAppResponse": "CON Bem-vindo ao Sistema de Denuncia de Lixo Urbano\n1. Denunciar lixo\n2. Consultar denuncia\n3. Informacoes\n4. Sair",
+        "hopsCount": "1",
+        "status": "Incomplete",
+        "sessionId": "ATUid_5e787678d261680ca6f10c367c84f164",
+        "cost": "0.00",
+        "date": "2026-04-26 08:48:01",
+        "networkCode": "99999",
+        "input": ""
+    },
+    "get": [],
+    "raw": "durationInMillis=3723&phoneNumber=%2B258865010200&errorMessage=&serviceCode=%2A384%2A82981%23&lastAppResponse=CON+Bem-vindo+ao+Sistema+de+Denuncia+de+Lixo+Urbano%0A1.+Denunciar+lixo%0A2.+Consultar+denuncia%0A3.+Informacoes%0A4.+Sair&hopsCount=1&status=Incomplete&sessionId=ATUid_5e787678d261680ca6f10c367c84f164&cost=0.00&date=2026-04-26+08%3A48%3A01&networkCode=99999&input="
+}
+--------------------------------------------------------------------------------
+{
+    "time": "2026-04-26 10:48:34",
+    "method": "POST",
+    "post": {
+        "durationInMillis": "42018",
+        "phoneNumber": "+258865010200",
+        "errorMessage": "",
+        "serviceCode": "*384*82981#",
+        "lastAppResponse": "END Denuncia registada com sucesso. Codigo: DLX-260426-BEC333. Use a opcao 2 para consultar o estado.",
+        "hopsCount": "6",
+        "status": "Success",
+        "sessionId": "ATUid_79753d859c9890667f016bcb17482d83",
+        "cost": "0.00",
+        "date": "2026-04-26 08:48:34",
+        "networkCode": "99999",
+        "input": "1*2*4*terminsl*1"
+    },
+    "get": [],
+    "raw": "durationInMillis=42018&phoneNumber=%2B258865010200&errorMessage=&serviceCode=%2A384%2A82981%23&lastAppResponse=END+Denuncia+registada+com+sucesso.+Codigo%3A+DLX-260426-BEC333.+Use+a+opcao+2+para+consultar+o+estado.&hopsCount=6&status=Success&sessionId=ATUid_79753d859c9890667f016bcb17482d83&cost=0.00&date=2026-04-26+08%3A48%3A34&networkCode=99999&input=1%2A2%2A4%2Aterminsl%2A1"
+}
+--------------------------------------------------------------------------------
+{
+    "time": "2026-04-26 10:49:17",
+    "method": "POST",
+    "post": {
+        "durationInMillis": "18463",
+        "phoneNumber": "+258865010200",
+        "errorMessage": "",
+        "serviceCode": "*384*82981#",
+        "lastAppResponse": "END Estado da denuncia DLX-260426-BEC333: Recebida\nBairro: Magoanine\nTipo: Queimada De Lixo\nRegistada em: 2026-04-26 10:48:34",
+        "hopsCount": "3",
+        "status": "Success",
+        "sessionId": "ATUid_839a4da6a155b727aed625dfef4fb345",
+        "cost": "0.00",
+        "date": "2026-04-26 08:49:16",
+        "networkCode": "99999",
+        "input": "2*DLX-260426-BEC333"
+    },
+    "get": [],
+    "raw": "durationInMillis=18463&phoneNumber=%2B258865010200&errorMessage=&serviceCode=%2A384%2A82981%23&lastAppResponse=END+Estado+da+denuncia+DLX-260426-BEC333%3A+Recebida%0ABairro%3A+Magoanine%0ATipo%3A+Queimada+De+Lixo%0ARegistada+em%3A+2026-04-26+10%3A48%3A34&hopsCount=3&status=Success&sessionId=ATUid_839a4da6a155b727aed625dfef4fb345&cost=0.00&date=2026-04-26+08%3A49%3A16&networkCode=99999&input=2%2ADLX-260426-BEC333"
+}
+--------------------------------------------------------------------------------
+{
+    "time": "2026-04-26 10:49:40",
+    "method": "POST",
+    "post": {
+        "durationInMillis": "16557",
+        "phoneNumber": "+258865010200",
+        "errorMessage": "",
+        "serviceCode": "*384*82981#",
+        "lastAppResponse": "END Nenhuma denuncia encontrada com o codigo informado.",
+        "hopsCount": "3",
+        "status": "Success",
+        "sessionId": "ATUid_b1cbf0893c6dee3fbca751447ba97abe",
+        "cost": "0.00",
+        "date": "2026-04-26 08:49:39",
+        "networkCode": "99999",
+        "input": "2*DLX-260426-BEC33g"
+    },
+    "get": [],
+    "raw": "durationInMillis=16557&phoneNumber=%2B258865010200&errorMessage=&serviceCode=%2A384%2A82981%23&lastAppResponse=END+Nenhuma+denuncia+encontrada+com+o+codigo+informado.&hopsCount=3&status=Success&sessionId=ATUid_b1cbf0893c6dee3fbca751447ba97abe&cost=0.00&date=2026-04-26+08%3A49%3A39&networkCode=99999&input=2%2ADLX-260426-BEC33g"
+}
+--------------------------------------------------------------------------------
+{
+    "time": "2026-04-26 13:14:14",
+    "method": "POST",
+    "post": {
+        "durationInMillis": "43776",
+        "phoneNumber": "+258842314569",
+        "errorMessage": "",
+        "serviceCode": "*384*82981#",
+        "lastAppResponse": "CON Seleccione o tipo de ocorrencia:\n1. Lixo acumulado\n2. Contentor cheio\n3. Lixo em vala\n4. Queimada de lixo\n5. Outro",
+        "hopsCount": "3",
+        "status": "Incomplete",
+        "sessionId": "ATUid_e2c28565490d4e1a0c0761e37e5dd0de",
+        "cost": "0.00",
+        "date": "2026-04-26 11:14:14",
+        "networkCode": "99999",
+        "input": "1*4"
+    },
+    "get": [],
+    "raw": "durationInMillis=43776&phoneNumber=%2B258842314569&errorMessage=&serviceCode=%2A384%2A82981%23&lastAppResponse=CON+Seleccione+o+tipo+de+ocorrencia%3A%0A1.+Lixo+acumulado%0A2.+Contentor+cheio%0A3.+Lixo+em+vala%0A4.+Queimada+de+lixo%0A5.+Outro&hopsCount=3&status=Incomplete&sessionId=ATUid_e2c28565490d4e1a0c0761e37e5dd0de&cost=0.00&date=2026-04-26+11%3A14%3A14&networkCode=99999&input=1%2A4"
+}
+--------------------------------------------------------------------------------
+{
+    "time": "2026-04-26 13:16:14",
+    "method": "POST",
+    "post": {
+        "durationInMillis": "41057",
+        "phoneNumber": "+258845123699",
+        "errorMessage": "",
+        "serviceCode": "*384*82981#",
+        "lastAppResponse": "CON Confirme a denuncia:\nBairro: Inhagoia\nTipo: Queimada De Lixo\nLocal: Na paragem\n1. Confirmar\n2. Cancelar",
+        "hopsCount": "5",
+        "status": "Incomplete",
+        "sessionId": "ATUid_c67080dd25157a7b354d5b4105e41807",
+        "cost": "0.00",
+        "date": "2026-04-26 11:16:14",
+        "networkCode": "99999",
+        "input": "1*4*4*Na paragem"
+    },
+    "get": [],
+    "raw": "durationInMillis=41057&phoneNumber=%2B258845123699&errorMessage=&serviceCode=%2A384%2A82981%23&lastAppResponse=CON+Confirme+a+denuncia%3A%0ABairro%3A+Inhagoia%0ATipo%3A+Queimada+De+Lixo%0ALocal%3A+Na+paragem%0A1.+Confirmar%0A2.+Cancelar&hopsCount=5&status=Incomplete&sessionId=ATUid_c67080dd25157a7b354d5b4105e41807&cost=0.00&date=2026-04-26+11%3A16%3A14&networkCode=99999&input=1%2A4%2A4%2ANa+paragem"
+}
+--------------------------------------------------------------------------------
+{
+    "time": "2026-04-26 13:18:57",
+    "method": "POST",
+    "post": {
+        "durationInMillis": "38697",
+        "phoneNumber": "+258847596312",
+        "errorMessage": "",
+        "serviceCode": "*384*82981#",
+        "lastAppResponse": "END Denuncia registada com sucesso. Codigo: DLX-260426-B47E7A. Use a opcao 2 para consultar o estado.",
+        "hopsCount": "6",
+        "status": "Success",
+        "sessionId": "ATUid_d43511e242eff49c3a675ce5893b151b",
+        "cost": "0.00",
+        "date": "2026-04-26 11:18:57",
+        "networkCode": "99999",
+        "input": "1*4*4*Na paragem*1"
+    },
+    "get": [],
+    "raw": "durationInMillis=38697&phoneNumber=%2B258847596312&errorMessage=&serviceCode=%2A384%2A82981%23&lastAppResponse=END+Denuncia+registada+com+sucesso.+Codigo%3A+DLX-260426-B47E7A.+Use+a+opcao+2+para+consultar+o+estado.&hopsCount=6&status=Success&sessionId=ATUid_d43511e242eff49c3a675ce5893b151b&cost=0.00&date=2026-04-26+11%3A18%3A57&networkCode=99999&input=1%2A4%2A4%2ANa+paragem%2A1"
+}
+--------------------------------------------------------------------------------
+{
+    "time": "2026-04-26 13:20:15",
+    "method": "POST",
+    "post": {
+        "durationInMillis": "50149",
+        "phoneNumber": "+258847596312",
+        "errorMessage": "",
+        "serviceCode": "*384*82981#",
+        "lastAppResponse": "END Estado da denuncia DLX-260426-B47E7A: Recebida\nBairro: Inhagoia\nTipo: Queimada De Lixo\nRegistada em: 2026-04-26 13:18:57",
+        "hopsCount": "3",
+        "status": "Success",
+        "sessionId": "ATUid_6b22417b1c571f8b64b4d485d3647a5f",
+        "cost": "0.00",
+        "date": "2026-04-26 11:20:15",
+        "networkCode": "99999",
+        "input": "2*DLX-260426-B47E7A"
+    },
+    "get": [],
+    "raw": "durationInMillis=50149&phoneNumber=%2B258847596312&errorMessage=&serviceCode=%2A384%2A82981%23&lastAppResponse=END+Estado+da+denuncia+DLX-260426-B47E7A%3A+Recebida%0ABairro%3A+Inhagoia%0ATipo%3A+Queimada+De+Lixo%0ARegistada+em%3A+2026-04-26+13%3A18%3A57&hopsCount=3&status=Success&sessionId=ATUid_6b22417b1c571f8b64b4d485d3647a5f&cost=0.00&date=2026-04-26+11%3A20%3A15&networkCode=99999&input=2%2ADLX-260426-B47E7A"
+}
+--------------------------------------------------------------------------------
+{
+    "time": "2026-04-26 14:02:05",
+    "method": "POST",
+    "post": {
+        "durationInMillis": "24558",
+        "phoneNumber": "+258864123548",
+        "errorMessage": "",
+        "serviceCode": "*384*82981#",
+        "lastAppResponse": "END Este servico permite denunciar focos de lixo urbano e consultar o estado da denuncia. Nao necessita de internet.",
+        "hopsCount": "2",
+        "status": "Success",
+        "sessionId": "ATUid_dce3903124a190567b88d522d91e4802",
+        "cost": "0.00",
+        "date": "2026-04-26 12:02:04",
+        "networkCode": "99999",
+        "input": "3"
+    },
+    "get": [],
+    "raw": "durationInMillis=24558&phoneNumber=%2B258864123548&errorMessage=&serviceCode=%2A384%2A82981%23&lastAppResponse=END+Este+servico+permite+denunciar+focos+de+lixo+urbano+e+consultar+o+estado+da+denuncia.+Nao+necessita+de+internet.&hopsCount=2&status=Success&sessionId=ATUid_dce3903124a190567b88d522d91e4802&cost=0.00&date=2026-04-26+12%3A02%3A04&networkCode=99999&input=3"
+}
+--------------------------------------------------------------------------------
+{
+    "time": "2026-04-26 14:04:10",
+    "method": "POST",
+    "post": {
+        "durationInMillis": "3294",
+        "phoneNumber": "+258864123548",
+        "errorMessage": "",
+        "serviceCode": "*384*82981#",
+        "lastAppResponse": "CON Bem-vindo ao Sistema de Denuncia de Lixo Urbano\n1. Denunciar lixo\n2. Consultar denuncia\n3. Informacoes\n4. Sair",
+        "hopsCount": "1",
+        "status": "Incomplete",
+        "sessionId": "ATUid_82ede0c9ac7a96fca4d7c767b6373168",
+        "cost": "0.00",
+        "date": "2026-04-26 12:04:10",
+        "networkCode": "99999",
+        "input": ""
+    },
+    "get": [],
+    "raw": "durationInMillis=3294&phoneNumber=%2B258864123548&errorMessage=&serviceCode=%2A384%2A82981%23&lastAppResponse=CON+Bem-vindo+ao+Sistema+de+Denuncia+de+Lixo+Urbano%0A1.+Denunciar+lixo%0A2.+Consultar+denuncia%0A3.+Informacoes%0A4.+Sair&hopsCount=1&status=Incomplete&sessionId=ATUid_82ede0c9ac7a96fca4d7c767b6373168&cost=0.00&date=2026-04-26+12%3A04%3A10&networkCode=99999&input="
+}
+--------------------------------------------------------------------------------
+{
+    "time": "2026-08-05 10:59:19",
+    "method": "POST",
+    "post": {
+        "durationInMillis": "3689",
+        "phoneNumber": "+258845556666",
+        "errorMessage": "Response does not start with CON or END",
+        "serviceCode": "*384*73407#",
+        "lastAppResponse": "",
+        "hopsMetadata": "",
+        "hopsCount": "1",
+        "status": "Failed",
+        "sessionId": "ATUid_a4ec0d62c3ebbe63fdea5b18b6d1afeb",
+        "cost": "0.00",
+        "date": "2026-08-05 08:59:18",
+        "networkCode": "99999",
+        "input": ""
+    },
+    "get": [],
+    "raw": "durationInMillis=3689&phoneNumber=%2B258845556666&errorMessage=Response+does+not+start+with+CON+or+END&serviceCode=%2A384%2A73407%23&lastAppResponse=&hopsMetadata=&hopsCount=1&status=Failed&sessionId=ATUid_a4ec0d62c3ebbe63fdea5b18b6d1afeb&cost=0.00&date=2026-08-05+08%3A59%3A18&networkCode=99999&input="
+}
+--------------------------------------------------------------------------------
+{
+    "time": "2026-08-05 10:59:36",
+    "method": "POST",
+    "post": {
+        "durationInMillis": "3613",
+        "phoneNumber": "+258845556666",
+        "errorMessage": "Response does not start with CON or END",
+        "serviceCode": "*384*73407#",
+        "lastAppResponse": "",
+        "hopsMetadata": "",
+        "hopsCount": "1",
+        "status": "Failed",
+        "sessionId": "ATUid_a629f4ec7c86d44616c9e4079d3d3698",
+        "cost": "0.00",
+        "date": "2026-08-05 08:59:35",
+        "networkCode": "99999",
+        "input": ""
+    },
+    "get": [],
+    "raw": "durationInMillis=3613&phoneNumber=%2B258845556666&errorMessage=Response+does+not+start+with+CON+or+END&serviceCode=%2A384%2A73407%23&lastAppResponse=&hopsMetadata=&hopsCount=1&status=Failed&sessionId=ATUid_a629f4ec7c86d44616c9e4079d3d3698&cost=0.00&date=2026-08-05+08%3A59%3A35&networkCode=99999&input="
+}
+--------------------------------------------------------------------------------
+{
+    "time": "2026-08-05 11:01:03",
+    "method": "POST",
+    "post": {
+        "durationInMillis": "3690",
+        "phoneNumber": "+258842040120",
+        "errorMessage": "Response does not start with CON or END",
+        "serviceCode": "*384*73407#",
+        "lastAppResponse": "",
+        "hopsMetadata": "",
+        "hopsCount": "1",
+        "status": "Failed",
+        "sessionId": "ATUid_e4aac4bf9c5aece59d8b4ace30b87833",
+        "cost": "0.00",
+        "date": "2026-08-05 09:01:02",
+        "networkCode": "99999",
+        "input": ""
+    },
+    "get": [],
+    "raw": "durationInMillis=3690&phoneNumber=%2B258842040120&errorMessage=Response+does+not+start+with+CON+or+END&serviceCode=%2A384%2A73407%23&lastAppResponse=&hopsMetadata=&hopsCount=1&status=Failed&sessionId=ATUid_e4aac4bf9c5aece59d8b4ace30b87833&cost=0.00&date=2026-08-05+09%3A01%3A02&networkCode=99999&input="
+}
+--------------------------------------------------------------------------------
+{
+    "time": "2026-08-05 11:13:34",
+    "method": "POST",
+    "post": {
+        "durationInMillis": "28920",
+        "phoneNumber": "+258865010202",
+        "errorMessage": "",
+        "serviceCode": "*384*73407#",
+        "lastAppResponse": "END Nenhuma denuncia encontrada com o codigo informado.",
+        "hopsMetadata": "",
+        "hopsCount": "3",
+        "status": "Success",
+        "sessionId": "ATUid_e350d376e75f1adc2f2c134b2038414d",
+        "cost": "0.00",
+        "date": "2026-08-05 09:13:31",
+        "networkCode": "99999",
+        "input": "2*2222"
+    },
+    "get": [],
+    "raw": "durationInMillis=28920&phoneNumber=%2B258865010202&errorMessage=&serviceCode=%2A384%2A73407%23&lastAppResponse=END+Nenhuma+denuncia+encontrada+com+o+codigo+informado.&hopsMetadata=&hopsCount=3&status=Success&sessionId=ATUid_e350d376e75f1adc2f2c134b2038414d&cost=0.00&date=2026-08-05+09%3A13%3A31&networkCode=99999&input=2%2A2222"
+}
+--------------------------------------------------------------------------------

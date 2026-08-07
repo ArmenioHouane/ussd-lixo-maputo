@@ -1,0 +1,147 @@
+{
+    "last_id": 5,
+    "reports": [
+        {
+            "id": 1,
+            "codigo": "DLX-260426-D13117",
+            "telefone": "+258841263951",
+            "bairro": "Hulene",
+            "tipo_ocorrencia": "Lixo Acumulado",
+            "ponto_referencia": "Chapa amarela",
+            "estado": "Recebida",
+            "origem": "USSD",
+            "created_at": "2026-04-26 09:29:57",
+            "updated_at": "2026-04-26 09:29:57"
+        },
+        {
+            "id": 2,
+            "codigo": "DLX-260426-8E893A",
+            "telefone": "+258841263445",
+            "bairro": "Hulene",
+            "tipo_ocorrencia": "Contentor Cheio",
+            "ponto_referencia": "Chapa amarela",
+            "estado": "Recebida",
+            "origem": "USSD",
+            "created_at": "2026-04-26 09:32:26",
+            "updated_at": "2026-04-26 09:32:26"
+        },
+        {
+            "id": 3,
+            "codigo": "DLX-260426-BEC333",
+            "telefone": "+258865010200",
+            "bairro": "Magoanine",
+            "tipo_ocorrencia": "Queimada De Lixo",
+            "ponto_referencia": "terminsl",
+            "estado": "Resolvida",
+            "origem": "USSD",
+            "created_at": "2026-04-26 10:48:34",
+            "updated_at": "2026-04-26 13:09:54"
+        },
+        {
+            "id": 4,
+            "codigo": "DLX-260426-0E8EDD",
+            "telefone": "+258841263445",
+            "bairro": "Hulene",
+            "tipo_ocorrencia": "Lixo Em Vala De Drenagem",
+            "ponto_referencia": "Perto da escolha no murro azul",
+            "estado": "Recebida",
+            "origem": "USSD",
+            "created_at": "2026-04-26 13:06:46",
+            "updated_at": "2026-04-26 13:06:46"
+        },
+        {
+            "id": 5,
+            "codigo": "DLX-260426-B47E7A",
+            "telefone": "+258847596312",
+            "bairro": "Inhagoia",
+            "tipo_ocorrencia": "Queimada De Lixo",
+            "ponto_referencia": "Na paragem",
+            "estado": "Recebida",
+            "origem": "USSD",
+            "created_at": "2026-04-26 13:18:57",
+            "updated_at": "2026-04-26 13:18:57"
+        }
+    ],
+    "history": [
+        {
+            "id": 1,
+            "denuncia_id": 1,
+            "estado_anterior": null,
+            "estado_novo": "Recebida",
+            "observacao": "Denúncia criada pelo canal USSD.",
+            "created_at": "2026-04-26 09:29:57"
+        },
+        {
+            "id": 2,
+            "denuncia_id": 2,
+            "estado_anterior": null,
+            "estado_novo": "Recebida",
+            "observacao": "Denúncia criada pelo canal USSD.",
+            "created_at": "2026-04-26 09:32:26"
+        },
+        {
+            "id": 3,
+            "denuncia_id": 3,
+            "estado_anterior": null,
+            "estado_novo": "Recebida",
+            "observacao": "Denúncia criada pelo canal USSD.",
+            "created_at": "2026-04-26 10:48:34"
+        },
+        {
+            "id": 4,
+            "denuncia_id": 4,
+            "estado_anterior": null,
+            "estado_novo": "Recebida",
+            "observacao": "Denúncia criada pelo canal USSD.",
+            "created_at": "2026-04-26 13:06:46"
+        },
+        {
+            "id": 5,
+            "denuncia_id": 3,
+            "estado_anterior": "Recebida",
+            "estado_novo": "Recebida",
+            "observacao": "Estado actualizado no painel administrativo local.",
+            "created_at": "2026-04-26 13:09:30"
+        },
+        {
+            "id": 6,
+            "denuncia_id": 3,
+            "estado_anterior": "Recebida",
+            "estado_novo": "Recebida",
+            "observacao": "Estado actualizado no painel administrativo local.",
+            "created_at": "2026-04-26 13:09:32"
+        },
+        {
+            "id": 7,
+            "denuncia_id": 3,
+            "estado_anterior": "Recebida",
+            "estado_novo": "Recebida",
+            "observacao": "Estado actualizado no painel administrativo local.",
+            "created_at": "2026-04-26 13:09:35"
+        },
+        {
+            "id": 8,
+            "denuncia_id": 3,
+            "estado_anterior": "Recebida",
+            "estado_novo": "Recebida",
+            "observacao": "Estado actualizado no painel administrativo local.",
+            "created_at": "2026-04-26 13:09:41"
+        },
+        {
+            "id": 9,
+            "denuncia_id": 3,
+            "estado_anterior": "Recebida",
+            "estado_novo": "Resolvida",
+            "observacao": "Estado actualizado no painel administrativo local.",
+            "created_at": "2026-04-26 13:09:54"
+        },
+        {
+            "id": 10,
+            "denuncia_id": 5,
+            "estado_anterior": null,
+            "estado_novo": "Recebida",
+            "observacao": "Denúncia criada pelo canal USSD.",
+            "created_at": "2026-04-26 13:18:57"
+        }
+    ]
+}
