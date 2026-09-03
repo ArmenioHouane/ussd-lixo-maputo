@@ -38,9 +38,10 @@ type Draft = {
 
 interface HomeScreenProps {
   onOpenReport: (code: string) => void;
+  onOpenSimulator?: () => void;
 }
 
-export const HomeScreen: React.FC<HomeScreenProps> = ({ onOpenReport }) => {
+export const HomeScreen: React.FC<HomeScreenProps> = ({ onOpenReport, onOpenSimulator }) => {
   const { createReport } = useReports();
 
   const [step, setStep] = useState<Step>('menu');
@@ -156,6 +157,14 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({ onOpenReport }) => {
         <Button label="2. Consultar denúncia" variant="secondary" onPress={() => handleMenu('2')} />
         <Button label="3. Informações" variant="secondary" onPress={() => handleMenu('3')} />
         <Button label="4. Sair" variant="ghost" onPress={() => handleMenu('4')} />
+        {onOpenSimulator ? (
+          <Button
+            label="Abrir simulador USSD"
+            variant="secondary"
+            onPress={onOpenSimulator}
+            fullWidth={false}
+          />
+        ) : null}
       </View>
     </>
   );

@@ -19,6 +19,10 @@ import { useReports } from '../context/ReportsContext';
 
 type Mode = 'local' | 'server';
 
+interface UssdSimulatorScreenProps {
+  onBack?: () => void;
+}
+
 interface SessionState {
   text: string;
   ended: boolean;
@@ -28,7 +32,7 @@ interface SessionState {
 
 const initialSession: SessionState = { text: '', ended: false, screen: '', history: [] };
 
-export const UssdSimulatorScreen: React.FC = () => {
+export const UssdSimulatorScreen: React.FC<UssdSimulatorScreenProps> = ({ onBack }) => {
   const { createReport, findReportByCode } = useReports();
   const [mode, setMode] = useState<Mode>('local');
   const [phoneNumber, setPhoneNumber] = useState('+258840000001');
@@ -187,6 +191,10 @@ export const UssdSimulatorScreen: React.FC = () => {
           icon={<MaterialCommunityIcons name="refresh" size={18} color={colors.primaryDark} />}
           onPress={startSession}
         />
+
+        {onBack ? (
+          <Button label="Voltar" variant="ghost" onPress={onBack} />
+        ) : null}
 
         {session.history.length > 1 ? (
           <Card title="Histórico da sessão" style={styles.historyCard}>

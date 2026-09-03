@@ -7,12 +7,14 @@ import { HomeScreen } from '../screens/HomeScreen';
 import { ReportsScreen } from '../screens/ReportsScreen';
 import { ReportDetailScreen } from '../screens/ReportDetailScreen';
 import { InfoScreen } from '../screens/InfoScreen';
+import { UssdSimulatorScreen } from '../screens/UssdSimulatorScreen';
 import { useReports } from '../context/ReportsContext';
 import { colors } from '../theme';
 
 export type RootStackParamList = {
   Tabs: undefined;
   ReportDetail: { code: string };
+  UssdSimulator: undefined;
 };
 
 export type TabParamList = {
@@ -28,9 +30,10 @@ interface TabsProps {
   refreshKey: number;
   onOpenReport: (code: string) => void;
   onReset: () => Promise<void>;
+  onOpenSimulator: () => void;
 }
 
-const Tabs: React.FC<TabsProps> = ({ refreshKey, onOpenReport, onReset }) => (
+const Tabs: React.FC<TabsProps> = ({ refreshKey, onOpenReport, onReset, onOpenSimulator }) => (
   <Tab.Navigator
     screenOptions={({ route }) => ({
       headerShown: false,
@@ -52,7 +55,7 @@ const Tabs: React.FC<TabsProps> = ({ refreshKey, onOpenReport, onReset }) => (
     })}
   >
     <Tab.Screen name="Home" options={{ title: 'Início' }}>
-      {() => <HomeScreen onOpenReport={onOpenReport} />}
+      {() => <HomeScreen onOpenReport={onOpenReport} onOpenSimulator={onOpenSimulator} />}
     </Tab.Screen>
     <Tab.Screen name="Reports" options={{ title: 'Denúncias' }}>
       {() => <ReportsScreen onOpenReport={onOpenReport} refreshKey={refreshKey} />}
@@ -82,6 +85,7 @@ export const RootNavigator: React.FC = () => {
               refreshKey={refreshKey}
               onOpenReport={(code) => navigation.navigate('ReportDetail', { code })}
               onReset={handleReset}
+              onOpenSimulator={() => navigation.navigate('UssdSimulator')}
             />
           )}
         </Stack.Screen>
@@ -93,6 +97,9 @@ export const RootNavigator: React.FC = () => {
               onReportChanged={bump}
             />
           )}
+        </Stack.Screen>
+        <Stack.Screen name="UssdSimulator">
+          {({ navigation }) => <UssdSimulatorScreen onBack={() => navigation.goBack()} />}
         </Stack.Screen>
       </Stack.Navigator>
     </NavigationContainer>
