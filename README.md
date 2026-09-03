@@ -24,6 +24,7 @@ public/
   assets/style.css    Estilos simples
 data/
   database.sqlite     Criado automaticamente na primeira execução
+mobile/               App mobile React Native + Expo (modo offline)
 tests/
   test_ussd.sh        Teste via curl
 ```
@@ -127,3 +128,38 @@ https://SEU-NGROK.ngrok-free.app/ussd.php
 ## Observação académica
 
 Este protótipo é funcional em ambiente simulado. Para produção real seria necessário contratar/configurar um código USSD com uma operadora móvel ou agregador autorizado, adicionar autenticação forte no painel administrativo, logs de auditoria e políticas de protecção de dados pessoais.
+
+## App Mobile (React Native + Expo)
+
+A pasta `mobile/` contém a versão Android do protótipo. Funciona **totalmente offline**
+usando AsyncStorage e replica o fluxo USSD com ecrãs nativos.
+
+### Pré-requisitos
+
+- Node.js 18+
+- Expo Go instalado no Android (Play Store)
+
+### Como executar
+
+```bash
+cd mobile
+npm install
+npx expo start
+```
+
+No terminal do Expo aparece um QR code. Abra a app **Expo Go** no Android, toque em
+"Scan QR code" e aponte para o QR. A app é carregada directamente no telemóvel.
+
+### Funcionalidades
+
+- Menu principal com 4 opções (denunciar / consultar / informações / sair)
+- Fluxo guiado de denúncia: bairro → tipo → ponto de referência → confirmar → código
+- Consulta por código (DLX-...)
+- Listagem filtrada por estado
+- Detalhe da denúncia com histórico de mudanças
+- Actualização de estado (Recebida → Em Análise → Encaminhada → Em Atendimento → Resolvida / Rejeitada)
+- Estatísticas locais (totais por estado e top bairros)
+- Limpeza opcional da base local
+
+A app não comunica com o backend PHP — todos os dados ficam no dispositivo. Para sincronizar
+com o servidor, seria necessário adicionar uma camada HTTP adicional.

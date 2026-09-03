@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Denúncia de Lixo Maputo",
+    "slug": "ussd-lixo-maputo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#F4F7F4",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "backgroundColor": "#1B7A43",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "android": {
+      "package": "mz.ac.prototype.lixomaputo",
+      "edgeToEdgeEnabled": true,
+      "softwareKeyboardLayoutMode": "pan",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1B7A43"
+      },
+      "usesCleartextTraffic": true,
+      "permissions": ["android.permission.INTERNET"]
+    },
+    "ios": {
+      "bundleIdentifier": "mz.ac.prototype.lixomaputo",
+      "supportsTablet": true,
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false,
+        "NSAppTransportSecurity": {
+          "NSAllowsArbitraryLoads": true,
+          "NSAllowsLocalNetworking": true
+        }
+      }
+    },
+    "web": {
+      "favicon": null
+    }
+  }
+}
